@@ -1,9 +1,9 @@
-package com.bridgelabz.addressbookapp.controller;
+package com.bridgelabz.addressbookapp.dto;
 
-public class AddressBookDTO {
+public class ResponseDTO {
 	private String message;
 	private Object data;
-	public AddressBookDTO(String message, Object data) {
+	public ResponseDTO(String message, Object data) {
 		super();
 		this.message = message;
 		this.data = data;
