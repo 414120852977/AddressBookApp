@@ -26,16 +26,27 @@ public class AddressBookService implements IAddressBookService{
 	@Override
 	public AddressBookData createEmployeePayrollData(AddressBookDTO addressBookDTO) {
 		// TODO Auto-generated method stub
-		AddressBookData  addressbookdata = null;
-		addressbookdata = new AddressBookData(1, addressBookDTO);
+		
+		AddressBookData addressbookdata  = null;
+		addressbookdata = new AddressBookData(addressBookList.size()+1, addressBookDTO);
+		addressBookList.add(addressbookdata);
 		return addressbookdata;
 	}
 
 	@Override
 	public AddressBookData updateAddressBookData(int addressbookId, AddressBookDTO addressBookDTO) {
 		// TODO Auto-generated method stub
-		AddressBookData addressbookdata = null;
-		addressbookdata = new AddressBookData(addressbookId,  addressBookDTO);
+		AddressBookData addressbookdata = this.getAddressBookDataById(addressbookId);
+		addressbookdata.setFirstName(addressBookDTO.firstName);
+		addressbookdata.setLastName(addressBookDTO.lastName);
+		addressbookdata.setAddress(addressBookDTO.address);
+		addressbookdata.setCity(addressBookDTO.city);
+		addressbookdata.setState(addressBookDTO.state);
+		addressbookdata.setZip(addressBookDTO.zip);
+		addressbookdata.setEmail(addressBookDTO.email);
+		addressbookdata.setPhoneNumber(addressBookDTO.phoneNumber);
+		
+		addressBookList.set(addressbookId-1,  addressbookdata);
 		return addressbookdata;
 	}
 
