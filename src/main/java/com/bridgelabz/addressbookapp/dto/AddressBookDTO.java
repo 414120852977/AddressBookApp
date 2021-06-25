@@ -29,9 +29,10 @@ public class AddressBookDTO {
 	public String email;
 	@NotEmpty(message="phone number should not be empty")
 	public int phoneNumber;
-	public AddressBookDTO(String firstName, String lastName, String address, String city, String state, int zip,
+	public AddressBookDTO(int id ,String firstName, String lastName, String address, String city, String state, int zip,
 			String email, int phoneNumber) {
 		super();
+		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.address = address;

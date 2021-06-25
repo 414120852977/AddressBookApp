@@ -145,3 +145,142 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2021-06-25 13:23:43.407  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.327 seconds (JVM running for 4005.195)
 2021-06-25 13:23:43.409  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
 2021-06-25 13:23:43.410  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:35:09.719  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:35:09.721 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:35:09.721  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:35:10.347  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:35:10.995  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:35:11.131  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.521 seconds (JVM running for 4692.92)
+2021-06-25 13:35:11.137  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:35:11.137  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:36:01.182  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:36:01.196 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:36:01.196  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:36:01.772  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:36:02.281  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:36:02.584  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.458 seconds (JVM running for 4744.373)
+2021-06-25 13:36:02.588  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:36:02.589  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:36:30.979  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:36:30.980 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:36:30.980  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:36:31.561  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:36:31.894  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:36:32.052  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.119 seconds (JVM running for 4773.841)
+2021-06-25 13:36:32.056  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:36:32.056  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:38:55.475  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:38:55.475 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:38:55.475  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:38:56.018  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:38:56.637  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:38:56.775  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.34 seconds (JVM running for 4918.564)
+2021-06-25 13:38:56.778  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:38:56.778  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:41:47.665  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:41:47.666 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:41:47.666  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:41:48.217  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:41:48.849  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:41:48.972  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.348 seconds (JVM running for 5090.761)
+2021-06-25 13:41:48.975  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:41:48.975  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:45:48.392  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:45:48.392 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:45:48.392  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:45:49.191  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:45:49.696  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:45:49.858  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.505 seconds (JVM running for 5331.647)
+2021-06-25 13:45:49.861  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:45:49.861  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:48:31.847  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:48:31.848 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:48:31.848  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:48:32.399  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:48:32.769  WARN 11744 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressBookService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressBookService' defined in file [C:\Users\ashok\AddressBookApp\target\classes\com\bridgelabz\addressbookapp\service\AddressBookService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.addressbookapp.service.AddressBookService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method id() is undefined for the type AddressBookData
+
+2021-06-25 13:48:32.817 ERROR 11744 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'addressBookController': Unsatisfied dependency expressed through field 'addressBookService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressBookService' defined in file [C:\Users\ashok\AddressBookApp\target\classes\com\bridgelabz\addressbookapp\service\AddressBookService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.addressbookapp.service.AddressBookService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method id() is undefined for the type AddressBookData
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.8.jar:5.3.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.1.jar:2.5.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.1.jar:2.5.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.1.jar:2.5.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.1.jar:2.5.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.1.jar:2.5.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.1.jar:2.5.1]
+	at com.bridgelabz.addressbookapp.AddressBookAppApplication.main(AddressBookAppApplication.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.1.jar:2.5.1]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressBookService' defined in file [C:\Users\ashok\AddressBookApp\target\classes\com\bridgelabz\addressbookapp\service\AddressBookService.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.addressbookapp.service.AddressBookService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method id() is undefined for the type AddressBookData
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.8.jar:5.3.8]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bridgelabz.addressbookapp.service.AddressBookService]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method id() is undefined for the type AddressBookData
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.8.jar:5.3.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-5.3.8.jar:5.3.8]
+	... 36 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method id() is undefined for the type AddressBookData
+
+	at com.bridgelabz.addressbookapp.service.AddressBookService.<init>(AddressBookService.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:212) ~[spring-beans-5.3.8.jar:5.3.8]
+	... 38 common frames omitted
+
+2021-06-25 13:49:21.481  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:49:21.481 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:49:21.481  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:49:22.090  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:49:22.329  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:49:22.505  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.057 seconds (JVM running for 5544.294)
+2021-06-25 13:49:22.508  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:49:22.509  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:51:19.569  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:51:19.570 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:51:19.570  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:51:20.151  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:51:20.424  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:51:20.600  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.104 seconds (JVM running for 5662.388)
+2021-06-25 13:51:20.603  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:51:20.603  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:54:26.917  WARN 11744 --- [http-nio-8096-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.addressbookapp.exceptions.AddressBookException: Employee Not Found]
+2021-06-25 13:54:45.688  WARN 11744 --- [http-nio-8096-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bridgelabz.addressbookapp.exceptions.AddressBookException: Employee Not Found]

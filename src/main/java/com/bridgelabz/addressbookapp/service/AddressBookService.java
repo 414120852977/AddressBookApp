@@ -1,14 +1,17 @@
 package com.bridgelabz.addressbookapp.service;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bridgelabz.addressbookapp.dto.AddressBookDTO;
+import com.bridgelabz.addressbookapp.exceptions.AddressBookException;
 import com.bridgelabz.addressbookapp.model.AddressBookData;
 import com.bridgelabz.addressbookapp.repository.AddressBookRepository;
+
 
 @Service
 public class AddressBookService implements IAddressBookService{
@@ -25,7 +28,10 @@ public class AddressBookService implements IAddressBookService{
 	@Override
 	public AddressBookData getAddressBookDataById(int addressbookId) {
 		// TODO Auto-generated method stub
-		return addressBookList.get(addressbookId-1);
+		return addressBookList.stream()
+				.filter(adressData -> adressData.id == addressbookId)
+				.findFirst()
+				.orElseThrow(() -> new AddressBookException("Employee Not Found"));
 		
 	}
 

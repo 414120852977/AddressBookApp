@@ -21,9 +21,10 @@ public class AddressBookData {
 	public String email;
 	public int phoneNumber;
 	
-	public AddressBookData(String firstName, String lastName, String address, String city, String state, int zip,
+	public AddressBookData(int id, String firstName, String lastName, String address, String city, String state, int zip,
 			String email, int phoneNumber) {
 		super();
+		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.address = address;
@@ -46,6 +47,19 @@ public class AddressBookData {
 	public AddressBookData() {
 		super();
 		// TODO Auto-generated constructor stub
+	}
+
+	
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 
