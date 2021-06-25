@@ -1,9 +1,17 @@
 package com.bridgelabz.addressbookapp.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 import com.bridgelabz.addressbookapp.dto.AddressBookDTO;
 
+@Entity
 public class AddressBookData {
-	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public int id;
 	public String firstName;
 	public String lastName;
 	public String address;
@@ -29,6 +37,14 @@ public class AddressBookData {
 	
 
 	public AddressBookData(int i, AddressBookDTO addressBookDTO) {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+
+
+	public AddressBookData() {
+		super();
 		// TODO Auto-generated constructor stub
 	}
 
@@ -98,16 +114,16 @@ public class AddressBookData {
 		this.phoneNumber = phoneNumber;
 	}
 
+
+
 	@Override
 	public String toString() {
-		return "AddressBookData [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city="
-				+ city + ", state=" + state + ", zip=" + zip + ", email=" + email + ", phoneNumber=" + phoneNumber
-				+ ", getFirstName()=" + getFirstName() + ", getLastName()=" + getLastName() + ", getAddress()="
-				+ getAddress() + ", getCity()=" + getCity() + ", getState()=" + getState() + ", getZip()=" + getZip()
-				+ ", getEmail()=" + getEmail() + ", getPhoneNumber()=" + getPhoneNumber() + ", getClass()=" + getClass()
-				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+		return "AddressBookData [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", address="
+				+ address + ", city=" + city + ", state=" + state + ", zip=" + zip + ", email=" + email
+				+ ", phoneNumber=" + phoneNumber + "]";
 	}
 
+	
 	
 	
 	

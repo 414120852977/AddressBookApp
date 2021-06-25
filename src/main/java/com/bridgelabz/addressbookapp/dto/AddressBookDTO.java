@@ -1,6 +1,13 @@
 package com.bridgelabz.addressbookapp.dto;
 
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+
+
 public class AddressBookDTO {
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	public int id;
 	public String firstName;
 	public String lastName;
 	public String address;
@@ -23,11 +30,11 @@ public class AddressBookDTO {
 	}
 	@Override
 	public String toString() {
-		return "AddressBookDTO [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city="
-				+ city + ", state=" + state + ", zip=" + zip + ", email=" + email + ", phoneNumber=" + phoneNumber
-				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
-				+ "]";
+		return "AddressBookDTO [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", address="
+				+ address + ", city=" + city + ", state=" + state + ", zip=" + zip + ", email=" + email
+				+ ", phoneNumber=" + phoneNumber + "]";
 	}
+	
 	
 	
 	

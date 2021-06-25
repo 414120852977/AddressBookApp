@@ -3,17 +3,22 @@ package com.bridgelabz.addressbookapp.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bridgelabz.addressbookapp.dto.AddressBookDTO;
 import com.bridgelabz.addressbookapp.model.AddressBookData;
+import com.bridgelabz.addressbookapp.repository.AddressBookRepository;
 
 @Service
 public class AddressBookService implements IAddressBookService{
+	
+	@Autowired
+	 private AddressBookRepository addressBookRepository;
 	private List<AddressBookData> addressBookList = new ArrayList<>();
 	@Override
 	public List<AddressBookData> getAddressBookData() {
-		
+		List<AddressBookData> addressBookList = (List<AddressBookData>)this.addressBookRepository.findAll();
 		return addressBookList;
 	}
 
@@ -21,6 +26,7 @@ public class AddressBookService implements IAddressBookService{
 	public AddressBookData getAddressBookDataById(int addressbookId) {
 		// TODO Auto-generated method stub
 		return addressBookList.get(addressbookId-1);
+		
 	}
 
 	@Override
