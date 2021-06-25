@@ -26,3 +26,35 @@
 2021-06-25 12:49:02.406  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2021-06-25 12:49:02.519  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 2.354 seconds (JVM running for 1924.308)
 2021-06-25 12:49:02.522  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 12:49:02.522  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 12:57:07.096  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 12:57:07.098 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 12:57:07.098  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 12:57:07.772  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 12:57:08.413  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 12:57:08.607  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.567 seconds (JVM running for 2410.396)
+2021-06-25 12:57:08.610  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 12:57:08.610  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:03:34.189  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:03:34.190 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:03:34.190  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:03:34.814  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:03:35.507  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:03:35.799  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.66 seconds (JVM running for 2797.588)
+2021-06-25 13:03:35.817  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:03:35.818  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:04:49.910  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:04:49.911 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:04:49.911  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:04:50.423  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:04:50.697  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:04:50.919  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.063 seconds (JVM running for 2872.709)
+2021-06-25 13:04:50.923  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
+2021-06-25 13:04:50.923  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook DB user is root 
+2021-06-25 13:06:20.923  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 15.0.2 on DESKTOP-RLRGP4P with PID 11744 (C:\Users\ashok\AddressBookApp\target\classes started by ashok in C:\Users\ashok\AddressBookApp)
+2021-06-25 13:06:20.923 DEBUG 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 13:06:20.923  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : The following profiles are active: dev
+2021-06-25 13:06:21.625  WARN 11744 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-06-25 13:06:22.173  WARN 11744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 13:06:22.335  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : Started AddressBookAppApplication in 1.533 seconds (JVM running for 2964.124)
+2021-06-25 13:06:22.339  INFO 11744 --- [restartedMain] c.b.a.AddressBookAppApplication          : AddressBook App Started in COMMON Environment
