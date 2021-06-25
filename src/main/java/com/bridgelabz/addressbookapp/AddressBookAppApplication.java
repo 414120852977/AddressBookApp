@@ -18,6 +18,8 @@ public class AddressBookAppApplication {
 		
 		log.info("AddressBook App Started in {} Environment",context.getEnvironment().getProperty("environment"));
 		 
+		log.info("AddressBook DB user is {} ",
+				context.getEnvironment().getProperty("spring.datasource.username"));
 	}
 
 }
