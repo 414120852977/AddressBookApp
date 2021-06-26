@@ -2,6 +2,7 @@ package com.bridgelabz.addressbookapp.service;
 
 import java.util.ArrayList;
 
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +12,11 @@ import com.bridgelabz.addressbookapp.dto.AddressBookDTO;
 import com.bridgelabz.addressbookapp.exceptions.AddressBookException;
 import com.bridgelabz.addressbookapp.model.AddressBookData;
 import com.bridgelabz.addressbookapp.repository.AddressBookRepository;
+import lombok.extern.slf4j.Slf4j;
 
 
 @Service
+@Slf4j
 public class AddressBookService implements IAddressBookService{
 	
 	@Autowired
@@ -37,29 +40,17 @@ public class AddressBookService implements IAddressBookService{
 
 	@Override
 	public AddressBookData createEmployeePayrollData(AddressBookDTO addressBookDTO) {
-		// TODO Auto-generated method stub
-		
-		AddressBookData addressbookdata  = null;
-		addressbookdata = new AddressBookData(addressBookList.size()+1, addressBookDTO);
-		addressBookList.add(addressbookdata);
-		return addressbookdata;
+		AddressBookData  addressBookData = null;
+		addressBookData = new AddressBookData(addressBookDTO);
+		log.debug("AddressBook Data:"+addressBookData.toString());
+		return addressBookRepository.save(addressBookData);
 	}
 
 	@Override
 	public AddressBookData updateAddressBookData(int addressbookId, AddressBookDTO addressBookDTO) {
-		// TODO Auto-generated method stub
-		AddressBookData addressbookdata = this.getAddressBookDataById(addressbookId);
-		addressbookdata.setFirstName(addressBookDTO.firstName);
-		addressbookdata.setLastName(addressBookDTO.lastName);
-		addressbookdata.setAddress(addressBookDTO.address);
-		addressbookdata.setCity(addressBookDTO.city);
-		addressbookdata.setState(addressBookDTO.state);
-		addressbookdata.setZip(addressBookDTO.zip);
-		addressbookdata.setEmail(addressBookDTO.email);
-		addressbookdata.setPhoneNumber(addressBookDTO.phoneNumber);
-		
-		addressBookList.set(addressbookId-1,  addressbookdata);
-		return addressbookdata;
+		AddressBookData addressBookData = this.getAddressBookDataById(addressbookId);
+		addressBookData.updateAddressBookData(addressBookDTO);;
+		return addressBookRepository.save(addressBookData);
 	}
 
 	@Override
