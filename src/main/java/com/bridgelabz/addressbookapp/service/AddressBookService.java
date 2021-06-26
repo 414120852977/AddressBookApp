@@ -21,20 +21,18 @@ public class AddressBookService implements IAddressBookService{
 	
 	@Autowired
 	 private AddressBookRepository addressBookRepository;
-	private List<AddressBookData> addressBookList = new ArrayList<>();
+	
 	@Override
 	public List<AddressBookData> getAddressBookData() {
-		List<AddressBookData> addressBookList = (List<AddressBookData>)this.addressBookRepository.findAll();
-		return addressBookList;
+		return addressBookRepository.findAll();
 	}
 
 	@Override
 	public AddressBookData getAddressBookDataById(int addressbookId) {
 		// TODO Auto-generated method stub
-		return addressBookList.stream()
-				.filter(adressData -> adressData.id == addressbookId)
-				.findFirst()
-				.orElseThrow(() -> new AddressBookException("Employee Not Found"));
+		return addressBookRepository
+				.findById(addressbookId)
+				.orElseThrow(() -> new AddressBookException("Addressbook with addressbook id:"+addressbookId + "does not exist..!!!"));
 		
 	}
 
@@ -56,7 +54,7 @@ public class AddressBookService implements IAddressBookService{
 	@Override
 	public void deleteAddressBookData(int addressbookId) {
 		// TODO Auto-generated method stub
-		addressBookList.remove(addressbookId-1);
+		addressBookRepository.deleteById(addressbookId);
 	}
 	
 
