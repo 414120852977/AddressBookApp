@@ -1,6 +1,6 @@
 package com.bridgelabz.addressbookapp.service;
 
-import java.util.ArrayList;
+
 
 
 import java.util.List;
@@ -55,6 +55,12 @@ public class AddressBookService implements IAddressBookService{
 	public void deleteAddressBookData(int addressbookId) {
 		// TODO Auto-generated method stub
 		addressBookRepository.deleteById(addressbookId);
+	}
+
+	@Override
+	public List<AddressBookData> getFindByCity(String city) {
+		
+		return addressBookRepository.findByCity(city);
 	}
 	
 

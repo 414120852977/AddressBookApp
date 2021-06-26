@@ -1,5 +1,9 @@
 package com.bridgelabz.addressbookapp.model;
 
+
+
+import java.util.List;
+
 import javax.persistence.CollectionTable;
 
 import javax.persistence.Column;
@@ -23,42 +27,34 @@ public @Data class AddressBookData {
 	private String firstName;
 	private String lastName;
 	private String address;
-	private String city;
+	@ElementCollection
+	@CollectionTable(name = "addressbook_city", joinColumns = @JoinColumn(name = "addressBookid"))
+	@Column(name = "city")
+	private List<String> citys;
 	private String state;
 	private int zip;
 	private String email;
-//	@ElementCollection
-//	@CollectionTable(name = "addressbook_phoneNumber",joinColumns = @JoinColumn(name = "id"))
-	@Column(name = "phoneNumber")
-	private int phoneNumber;
 	
+	private int phoneNumber;
 	
 	public AddressBookData() {
 		
 	}
 	
-public AddressBookData( int addressBookId, AddressBookDTO  addressBookDTO) {
-	this.id = addressBookId;
+	public AddressBookData( AddressBookDTO  addressBookDTO) {
+		super();
 	this.updateAddressBookData(addressBookDTO);
 	}
 
 
-
-public AddressBookData(AddressBookDTO addressBookDTO) {
-	// TODO Auto-generated constructor stub
-}
-
-
-public void updateAddressBookData(AddressBookDTO addressBookDTO) {
+	public void updateAddressBookData(AddressBookDTO addressBookDTO) {
 	this.firstName = addressBookDTO.firstName;
 	this.lastName = addressBookDTO.lastName;
 	this.address = addressBookDTO.address;
-	this.city = addressBookDTO.city;
+	this.citys = addressBookDTO.city;
 	this.state = addressBookDTO.state;
 	this.zip = addressBookDTO.zip;
 	this.email = addressBookDTO.email;
 	this.phoneNumber = addressBookDTO.phoneNumber;
-}
-
-
+	}
 }

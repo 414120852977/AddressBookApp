@@ -49,9 +49,18 @@ public class AddressBookController {
 		return new ResponseEntity<ResponseDTO>(resDTO, HttpStatus.OK);
 	}
 	
+	@RequestMapping("/city/{city}")
+	public ResponseEntity<ResponseDTO> getAddressBookByCity(@PathVariable("city") String city) {
+		List<AddressBookData> addressBookData = addressBookService.getFindByCity(city);
+		ResponseDTO resDTO = new ResponseDTO("Get call for city Successfull",addressBookData);
+		return new ResponseEntity<ResponseDTO>(resDTO, HttpStatus.OK);
+	}
+	
+	
 	@PostMapping("/create")
 	public ResponseEntity<ResponseDTO> addAddressBookData(
 								 @Valid @RequestBody AddressBookDTO addressBookDTO ) {
+		log.debug("AddressBook DTO:"+addressBookDTO.toString());
 		AddressBookData addressbookData = addressBookService.createEmployeePayrollData(addressBookDTO);
 		ResponseDTO resDTO = new ResponseDTO("created Employee Payroll Data  Successfully",addressbookData );
 		return new ResponseEntity<ResponseDTO>(resDTO, HttpStatus.OK);

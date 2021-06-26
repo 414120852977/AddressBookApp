@@ -9,6 +9,8 @@ public interface IAddressBookService {
 List<AddressBookData> getAddressBookData();
 	
 AddressBookData getAddressBookDataById(int addressbookId);
+
+List<AddressBookData> getFindByCity(String city);
 	
 AddressBookData createEmployeePayrollData(AddressBookDTO 
 			
